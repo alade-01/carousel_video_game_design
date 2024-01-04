@@ -3,10 +3,10 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class BackLayout extends StatelessWidget {
-  final Size s;
+  final Size size;
   final String valueKey;
 
-  const BackLayout({Key? key, required this.s, required this.valueKey})
+  const BackLayout({Key? key, required this.size, required this.valueKey})
       : super(key: key);
 
   @override
@@ -14,8 +14,8 @@ class BackLayout extends StatelessWidget {
     return AnimatedSwitcher(
       duration: Duration(milliseconds: 600),
       child: Container(
-        width: s.width,
-        height: s.height,
+        width: size.width,
+        height: size.height,
         key: ValueKey<String>(valueKey),
         child: BackdropFilter(
           filter: ImageFilter.blur(

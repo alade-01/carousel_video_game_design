@@ -3,13 +3,13 @@ import 'package:carousel_demo/providers.dart';
 import 'package:flutter/material.dart';
 
 class FrontLayout extends StatelessWidget {
-  final Size s;
+  final Size size;
   final List<ItemModel> items;
   final PageIndex state;
 
   const FrontLayout({
     Key? key,
-    required this.s,
+    required this.size,
     required this.state,
     required this.items,
   }) : super(key: key);
@@ -25,8 +25,8 @@ class FrontLayout extends StatelessWidget {
       itemBuilder: (_, index) {
         return Center(
           child: Container(
-            width: s.width * 0.75,
-            height: (s.width * 0.75) * (4 / 3),
+            width: size.width * 0.95,
+            height: (size.width * 0.75) * (4 / 3),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(24),
               image: DecorationImage(
