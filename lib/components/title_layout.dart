@@ -17,7 +17,8 @@ class TitleLayout extends StatelessWidget {
             title,
             style: TextStyle(
               color: Colors.white.withOpacity(0.8),
-              fontSize: 36,
+              fontFamily: 'Lato',
+              fontSize: 27,
               fontWeight: FontWeight.w900,
               letterSpacing: 1.2,
               shadows: [

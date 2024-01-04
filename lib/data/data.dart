@@ -1,8 +1,8 @@
 import '../model/product_item_model.dart';
 
 List<ProductItemModel> items = [
-  ProductItemModel(0, "assets/images/god-of-war.jpeg", "TOKYO"),
-  ProductItemModel(1, "assets/images/2.jpg", "LONDON"),
-  ProductItemModel(2, "assets/images/3.jpg", "BERLIN"),
-  ProductItemModel(3, "assets/images/4.jpg", "PARIS"),
+  ProductItemModel(0, "res/images/god-of-war.jpeg", "God Of War Ragnarok"),
+  ProductItemModel(1, "res/images/cyberpunk-2077.jpeg", "Cyberpunk 2077"),
+  ProductItemModel(2, "res/images/mortal-kombat-1.jpg", "Mortal Kombat 1"),
+  ProductItemModel(3, "res/images/tekken-8.png", "Tekken 8"),
 ];
