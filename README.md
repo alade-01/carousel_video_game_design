@@ -1,5 +1,9 @@
-# carousel_demo
+## carousel_video_game_design
 
-### Inspiration
+Creation of a carousel for a video game design. Download the Flutter 
+Carousel_video_game_design app template for free.
 
-https://www.youtube.com/watch?v=gOj4BlzYF4A
+### Carousel App Final Video On Android
+
+
+### Carousel App Final Video  On IOS

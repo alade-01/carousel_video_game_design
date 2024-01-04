@@ -1,8 +1,8 @@
-import 'package:carousel_demo/components/back_layout.dart';
-import 'package:carousel_demo/data/data.dart';
-import 'package:carousel_demo/components/front_layout.dart';
-import 'package:carousel_demo/components/title_layout.dart';
-import 'package:carousel_demo/providers.dart';
+import 'package:carousel_video_game_design/components/back_layout.dart';
+import 'package:carousel_video_game_design/data/data.dart';
+import 'package:carousel_video_game_design/components/front_layout.dart';
+import 'package:carousel_video_game_design/components/title_layout.dart';
+import 'package:carousel_video_game_design/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

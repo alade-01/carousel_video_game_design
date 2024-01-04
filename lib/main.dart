@@ -1,5 +1,5 @@
-import 'package:carousel_demo/windows/carousel_screen.dart';
-import 'package:carousel_demo/providers.dart';
+import 'package:carousel_video_game_design/windows/carousel_screen.dart';
+import 'package:carousel_video_game_design/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

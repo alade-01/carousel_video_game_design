@@ -1,4 +1,4 @@
-import 'package:carousel_demo/providers.dart';
+import 'package:carousel_video_game_design/providers.dart';
 import 'package:flutter/material.dart';
 
 import '../model/product_item_model.dart';
