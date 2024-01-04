@@ -41,7 +41,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
+    - res/images/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -63,6 +63,25 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: res/fonts/Lato-Bold.ttf
+          weight: 900
+        - asset: res/fonts/Lato-Regular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts:
+        - asset: res/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: res/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: res/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: res/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: res/fonts/Montserrat-Medium.ttf
+          weight: 500

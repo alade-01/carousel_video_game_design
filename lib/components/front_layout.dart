@@ -1,10 +1,11 @@
-import 'package:carousel_demo/Carousel/data.dart';
 import 'package:carousel_demo/providers.dart';
 import 'package:flutter/material.dart';
 
+import '../model/product_item_model.dart';
+
 class FrontLayout extends StatelessWidget {
   final Size size;
-  final List<ItemModel> items;
+  final List<ProductItemModel> items;
   final PageIndex state;
 
   const FrontLayout({
@@ -25,7 +26,7 @@ class FrontLayout extends StatelessWidget {
       itemBuilder: (_, index) {
         return Center(
           child: Container(
-            width: size.width * 0.95,
+            width: size.width * 0.75,
             height: (size.width * 0.75) * (4 / 3),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(24),
